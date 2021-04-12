@@ -53,6 +53,16 @@
 				]
 			}
 		],
+		"parameters": {
+			"@dataset().inputCSV": {
+				"type": "string",
+				"defaultValue": "fileName"
+			},
+			"@dataset().outputTable": {
+				"type": "string",
+				"defaultValue": "tableName"
+			}
+		},
 		"annotations": []
 	}
 }
