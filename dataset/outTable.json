@@ -5,6 +5,12 @@
 			"referenceName": "lsSQL",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"outputTable": {
+				"type": "string",
+				"defaultValue": "tableName"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
