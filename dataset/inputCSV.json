@@ -5,6 +5,12 @@
 			"referenceName": "lsStorage",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"inputCSV": {
+				"type": "string",
+				"defaultValue": "fileName"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
